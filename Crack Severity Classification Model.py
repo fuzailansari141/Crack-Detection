@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun  5 12:44:16 2023
-
-@author: Fuzail Ansari
-"""
-
 import os
 import cv2
 import keras
@@ -16,7 +9,7 @@ from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from keras.preprocessing.image import ImageDataGenerator
 
 # Define the path to the image folders
-data_dir = r"C:\Users\Fuzail Ansari\Desktop\MMM"
+data_dir = r"Path"
 categories = ["Minor", "Moderate", "Major"]
 
 # Prepare the training data
