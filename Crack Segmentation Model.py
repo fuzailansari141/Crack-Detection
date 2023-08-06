@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun  5 12:43:37 2023
-
-@author: Fuzail Ansari
-"""
-
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -42,8 +35,8 @@ path = "crack_seg_model6.pth"
 
 import os
 
-path_images = "/content/2gb_crack_dataset/train/images/"
-path_masks = "/content/2gb_crack_dataset/train/masks/"
+path_images = "Path"
+path_masks = "Path"
 
 images_paths = glob(path_images + '*.jpg')
 masks_paths = glob(path_masks + '*.jpg')
