@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun  5 12:41:21 2023
-
-@author: Fuzail Ansari
-"""
-
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
@@ -19,8 +12,8 @@ from keras.callbacks import ModelCheckpoint
 
 from sklearn.metrics import confusion_matrix, classification_report
 
-positive_dir = Path(r"C:\Users\Fuzail Ansari\Downloads\archive (15)\Positive")
-negative_dir = Path(r"C:\Users\Fuzail Ansari\Downloads\archive (15)\Negative")
+positive_dir = Path(r"Path")
+negative_dir = Path(r"Path")
 
 ## image_widht
 image_widht = 120
